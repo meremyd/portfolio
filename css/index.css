@@ -179,12 +179,12 @@ h3
 {
   display: block;
   margin: 0 auto;
-  margin-top: 200px;
-  width: 300px;
+  margin-top: 180px;
+  width: 270px;
   transform: rotate(45deg);
   overflow: hidden;
   position: absolute;
-  margin-left: 600px;
+  margin-left: 650px;
   border-style: solid;
   border-color: #1e3f66;
   border-width: 10px;
@@ -202,12 +202,12 @@ h3
 {
   display: block;
   margin: 0 auto;
-  margin-top: 400px;
-  width: 350px;
+  margin-top: 280px;
+  width: 300px;
   transform: rotate(45deg);
   overflow: hidden;
   position: absolute;
-  margin-left: 700px;
+  margin-left: 830px;
   border-style: solid;
   border-color: #1e3f66;
   border-width: 10px;
