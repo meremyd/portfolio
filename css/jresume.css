@@ -7,6 +7,36 @@ body{
     background-repeat: no-repeat;
 } 
 
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+header a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: white;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+header a:hover{
+  background:white;
+  color: #2b1055;
+}
+
+
 .box{
     position: relative;
     width: 100%;
