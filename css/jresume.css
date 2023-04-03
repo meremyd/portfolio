@@ -1,6 +1,6 @@
 body{
     display: flex;
-    background: url("images/bg2.jpeg");
+    background-image: url("../images/bg2.jpeg");
     min-height: 100px;
     justify-content: center;
     align-items: center;
