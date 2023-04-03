@@ -146,3 +146,8 @@ header a:hover{
   margin-top:500px;
   margin-left: 610px;
 }
+
+.accounts img
+{
+  width: 5px;
+}
