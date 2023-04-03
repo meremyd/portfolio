@@ -48,7 +48,8 @@ header a:hover{
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    margin-top: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
     background: aqua;
     display: grid;
     grid-template-columns: 2fr 1fr;
