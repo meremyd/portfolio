@@ -48,12 +48,13 @@ header a:hover{
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
+    margin-top: 500px;
     background: aqua;
     display: grid;
     grid-template-columns: 2fr 1fr;
     box-shadow: 0 35px 55px rgb(0, 0, 0.5)
-    top: 500px;
 }
+   
 
 .box1{
     position: relative;
