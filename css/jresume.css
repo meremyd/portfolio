@@ -47,6 +47,7 @@ header a:hover{
     display: grid;
     grid-template-columns: 2fr 1fr;
     box-shadow: 0 35px 55px rgb(0, 0, 0.5)
+    margin-top: 300px;
 }
 
 .box1{
