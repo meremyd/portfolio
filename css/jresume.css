@@ -149,6 +149,9 @@ header a:hover{
 
 .accounts img
 {
-  height: 5px;
+  height: 15px;
+  width: auto;
   border-radius: 0%;
+  margin-left: -30px;
+  margin-top: 2px;
 }
