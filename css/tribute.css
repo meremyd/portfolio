@@ -53,7 +53,7 @@ header a:hover
 
 .box
 {
-  background-color: #8be7fd;
+  background-color: #29bfd0;
   width: 700px;
   height: 1200px;
   margin-top: 1300px;
@@ -61,7 +61,6 @@ header a:hover
   margin-right: 250px;
   position: absolute;
   box-shadow: 10px 10px 5px lightgrey;
-  opacity: 0.8;
 }
 
 .mparents
