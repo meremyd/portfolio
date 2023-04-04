@@ -19,7 +19,7 @@ body
 
 header
 {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -57,17 +57,11 @@ header a:hover
   width: 700px;
   height: 1200px;
   margin-top: 1300px;
-  margin-left: 140px;
+  margin-left: 220px;
   margin-right: 250px;
   position: absolute;
   box-shadow: 10px 10px 5px lightgrey;
   opacity: 0.8;
-}
-
-.pictures
-{
-  opacity: 1;
-  margin-top: 200px;
 }
 
 .mparents
@@ -101,6 +95,12 @@ header a:hover
   margin-top:-100px;
   position: absolute ;
   margin-left: -50px;
+}
+
+.pictures
+{
+  opacity: 1;
+  margin-top: 200px;
 }
 
 .letter
