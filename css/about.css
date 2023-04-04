@@ -6,7 +6,7 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
-.container
+body
 {
   width: 100%;
   height: 100vh;
@@ -15,6 +15,7 @@
   background-position: center;
   padding: 0 8%;
   position: relative;
+  background-attachment: fixed;
 }
 header
 {
@@ -70,15 +71,16 @@ h2
 {
   justify-content: space-between;
   align-items: center;
-  margin-left: -50px;
+  margin-left: -70px;
+  margin-top: -250px;
 }
 
 img
 {
-  width: 350px;
+  width: 300px;
   border-radius: 100%;
   margin-top: 120px;
-  margin-left: 180px;
+  margin-left: 220px;
   justify-content: space-between;
   align-items: center;
   opacity: 0.9;
@@ -102,8 +104,8 @@ img:hover
   text-align: center;
   position: absolute;
   padding: 20px 20px;
-  margin-top:50px;
-  margin-left: 80px;
+  margin-top:135px;
+  margin-left: 30px;
 }
 
 .rsm .m:hover
@@ -126,8 +128,8 @@ img:hover
   text-align: center;
   position: absolute;
   padding: 20px 20px;
-  margin-top:50px;
-  margin-left: 650px;
+  margin-top:150px;
+  margin-left: 30px;
 }
 
 .rsm .j:hover
@@ -139,3 +141,79 @@ img:hover
   opacity: 1;
 }
 
+.box
+{
+  width: 1100px;
+  height: 800px;
+  background-color: #00356b;
+  opacity: 0.9;
+  margin-left: 20px;
+  margin-top: 250px;
+  position: absolute;
+  color: white;
+}
+
+.rbox
+{
+  width: 550px;
+  height: 700px;
+  margin-top: -175px;
+  margin-left: 70px;
+}
+
+.rbox h1
+{ 
+ text-align: center;
+ margin-top: 200px;
+ font-size: 40px;
+}
+
+.rbox p
+{
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  text-indent: 50px;
+}
+
+
+.lbox
+{
+  width: 550px;
+  height: 700px;
+  margin-top: -700px;
+  margin-left: 620px;
+}
+
+.lbox h1
+{ 
+ text-align: center;
+ margin-top: 0px;
+ font-size: 40px;
+}
+
+.lbox p
+{
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  text-indent: 50px;
+}
+
+.vline
+{
+  width: 5px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 550px;
+}
+
+.info
+{
+  margin-left: 400px;
+  margin-top: -300px;
+}
