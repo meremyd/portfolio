@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.container
+body
 {
   width: 100%;
   height: 100vh;
@@ -14,6 +14,7 @@
   background-position: center;
   padding: 0 8%;
   position: relative;
+  background-position: fixed;
 }
 
 header
@@ -155,6 +156,11 @@ h2
   margin-top: -200px;
   margin-left: 300px;
   color: white;
+}
+
+.w2 a
+{
+  text-decoration: none;
 }
 
 .w2:hover
