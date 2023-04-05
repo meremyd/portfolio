@@ -19,7 +19,7 @@ body
 
 header
 {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -27,7 +27,7 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+ 
 }
 
 header a
@@ -51,9 +51,9 @@ header a:hover
 
 .box
 {
-  background-color: #c4e3ff;
+  background-color: #81d8d0;
   width: 700px;
-  height: 1000px;
+  height: 1300px;
   margin-top: 250px;
   margin-left: 140px;
   margin-right: 250px;
@@ -63,7 +63,7 @@ header a:hover
 
 .box1
 {
-  background-color: #003E7F;
+  background-color: #296d98;
   width: 700px;
   height: 150px;
   margin-top: 10px;
@@ -84,29 +84,20 @@ header a:hover
 
 .box2
 {
-  background-color: #00154D;
+  background-color: #1c4966;
   width: 200px;
-  height: 1000px;
+  height: 1300px;
   margin-left: 490px;
   position: absolute;
 }
 
 .line
 {
-  background-color: #58779f;
+  background-color: #52b2bf;
   width: 700px;
   height: 20px;
   margin-top: 30px;
-  margin-left: -490px;
-  position: absolute;
-}
-
-.line2
-{
-  background-color: #abc7f2;
-  width: 20px;
-  height: 1000px;
-  margin-left: 150px;
+  margin-left: 0px;
   position: absolute;
 }
 
@@ -120,10 +111,35 @@ header a:hover
   position: absolute;
 }
 
+.profile
+{
+  
+}
+
+.profile h3
+{
+  color: white;
+  margin-top: 200px;
+  margin-left: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+.profile p
+{
+  color: white;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
 .contacts h3
 {
   color: white;
-  margin-top: 250px;
+  margin-top: 30px;
   margin-left: 50px;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -183,22 +199,34 @@ header a:hover
   position: absolute;
 }
 
-.contents li
+.objectives
+{
+   margin-top: 0px;
+}
+
+.objectives li
 {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 30px;
   list-style-type: circle;
-  margin-top: 180px;
+  margin-top: 190px;
   margin-left: 20px;
+  list-style: none;
+ 
 }
 
-.contents h5
+.objectives h5
 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 70px;
+}
+
+.objectives
+{
+  margin-top: 30px;
 }
 
 .qlf 
@@ -207,15 +235,17 @@ header a:hover
   font-weight: bold;
   font-size: 30px;
   list-style-type: circle;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-left: 20px;
+  list-style: none;
+  
 }
 
 .qlf ul
 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 70px;
 }
 
@@ -227,6 +257,7 @@ header a:hover
   list-style-type: circle;
   margin-top: 5px;
   margin-left: 20px;
+  list-style: none;
 }
 
 .wrk ul
@@ -234,7 +265,7 @@ header a:hover
   font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
   font-size: 16px;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 90px;
 }
 
@@ -245,6 +276,10 @@ header a:hover
   margin-top: 0px;
   margin-left: 10px;
 }
+.workexperience
+{
+  margin-top: 20px;
+}
 
 .ach
 {
@@ -252,15 +287,16 @@ header a:hover
   font-weight: bold;
   font-size: 30px;
   list-style-type: circle;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-left: 20px;
+  list-style: none;
 }
 
 .ach ul
 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 70px;
 }
 
@@ -270,14 +306,138 @@ header a:hover
   font-weight: bold;
   font-size: 30px;
   list-style-type: circle;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-left: 20px;
+  list-style: none;
 }
 
 .educb ul
 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
+  margin-top: 10px;
   margin-left: 70px;
   margin-bottom: 10px;
+}
+
+.design .sq1
+{
+  border-color: #05354c;
+  border-style: solid;
+  border-width: 15px;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-left: -20px;
+  margin-top: -5px;
+}
+
+.design .sq2
+{
+ 
+  border-color: #0f96d4;
+  border-style: solid;
+  border-width: 15px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -180px;
+}
+
+.design .sq3
+{
+ 
+  border-color: #095b81;
+  border-style: solid;
+  border-width: 15px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -110px;
+}
+
+.design .sq4
+{
+ 
+  border-color: 17aaee;
+  border-style: solid;
+  border-width: 15px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -90px;
+}
+
+.design .sq5
+{
+ 
+  border-color: #b6e4f9;
+  border-style: solid;
+  border-width: 15px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  margin-left: 140px;
+  margin-top: -135px;
+}
+
+.design .sq6
+{
+ 
+  border-color: #0c76a7;
+  border-style: solid;
+  border-width: 15px;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: -120px;
+}
+
+.design .sq7
+{
+ 
+  border-color: #06405b;
+  border-style: solid;
+  border-width: 15px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: -160px;
+}
+
+.design .sq8
+{
+ 
+  border-color: #72cbf4;
+  border-style: solid;
+  border-width: 15px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  margin-left: 310px;
+  margin-top: -140px;
+}
+
+.design .sq9
+{
+ 
+  border-color: #042b3c;
+  border-style: solid;
+  border-width: 15px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin-left: 255px;
+  margin-top: -110px;
+}
+
+.design
+{
+  margin-top: 80px;
+  margin-left: 20px;
 }
